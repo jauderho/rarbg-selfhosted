@@ -1,4 +1,4 @@
-FROM golang:1.22.3-alpine3.20@sha256:1b455a3f7786e5765dbeb4f7ab32a36cdc0c3f4ddd35406606df612dc6e3269b AS build
+FROM golang:1.22.5-alpine3.20@sha256:8c9183f715b0b4eca05b8b3dbf59766aaedb41ec07477b132ee2891ac0110a07 AS build
 
 RUN mkdir /app
 COPY . /app
